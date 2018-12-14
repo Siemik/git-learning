@@ -1,0 +1,103 @@
+* {
+  font-size: 18px;
+}
+.fa-1x {
+    font-size: 1.5rem;
+}
+.navbar-toggler.toggler-example {
+    cursor: pointer;
+}
+nav>.container-fluid>.navbar-header>button {
+  border: none;
+  background: none;
+  position: relative;
+  top: 13px;
+  right: 13px;
+}
+.navbar-toggler-icon {
+    background-image: url('https://mdbootstrap.com/img/svg/hamburger6.svg?color=000');
+}
+.gallery {
+  max-width: 100%;
+}
+.navbar {
+  margin-bottom: 0;
+  background-color: #F4F4F4;
+}
+
+.logo {
+  font-weight: bold;
+}
+img {
+  padding: 0 !important;
+  margin:0 !important;
+  border-image-width: 0;
+}
+.row {
+  margin: 0;
+}
+
+/* FORM INPUTS */
+.message {
+  height: 70px;
+}
+/* klasa odpowiadająca za szerokość inputsów */
+.message, .trainer, .email {
+    width: 400px;
+    text-align: center;
+}
+.submit {
+  background-color: #E0BF66;
+  border: none;
+  color: white;
+  padding: 9px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+/* ********** */
+.bluebutton {
+  min-width: 300px;
+  width: 20%;
+  margin: auto;
+  font-size: 20px;
+}
+.jumbotron {
+  background-image: url(https://images.unsplash.com/photo-1530288782965-fbad40327074?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3fa4f3e091e546c85460c6d3c8e7f02d&auto=format&fit=crop&w=1350&q=80);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+h1 {
+  vertical-align: middle;
+}
+.media {
+  max-width: 1200px;
+  margin: auto;
+}
+.media-left>a>img {
+  width: 20vw;
+}
+.img-thumbnail {
+  height: 255px;
+  height: 25vh;
+  width: 100%;
+  object-fit: cover;
+}
+/* RESPONSIV */
+@media (min-width: 768px) {
+  nav>.container-fluid>.navbar-header>button {
+    display: none;
+  }
+}
+@media (max-width: 1070px) {
+  .media-left>a>img {
+    display: none;
+  }
+}
