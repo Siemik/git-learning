@@ -90,6 +90,9 @@ h1 {
   width: 100%;
   object-fit: cover;
 }
+.paragraf{
+  color: gray;
+}
 /* RESPONSIV */
 @media (min-width: 768px) {
   nav>.container-fluid>.navbar-header>button {
